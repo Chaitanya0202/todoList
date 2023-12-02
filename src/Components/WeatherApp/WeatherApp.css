@@ -1,0 +1,53 @@
+
+.container{
+    width: 607px;
+    height: 500px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-color: rgb(216, 208, 220);
+    /* background-image: linear-gradient(red); */
+}
+
+.cityInput{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    font-size: medium;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #c4bbc4;
+}
+.search-icon button{
+    background-color: #f4cce7;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    /* color: aquamarine; */
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: red; */
+    
+}
+.weather-temp{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(107, 126, 120);
+    letter-spacing: 1px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weather-location{
+    margin: 10px;
+    color: rgb(144, 125, 125);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.search-icon button:hover{
+    background-color: #d8a8d8;
+}
